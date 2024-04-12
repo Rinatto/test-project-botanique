@@ -9,7 +9,7 @@ app.use(express.static('public'));
 
 // Маршрут для главной страницы
 app.get('/', (req, res) => {
-  res.sendFile(path.join(__dirname, 'public', 'main.html'));
+  res.sendFile(path.join(__dirname, 'public', 'index.html'));
 });
 
 // Маршрут для страницы аналитики
