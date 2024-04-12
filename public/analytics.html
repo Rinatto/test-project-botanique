@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>botanique</title>
+    <link rel="icon" href="images/Group.svg" />
+    <link rel="stylesheet" href="styles/style-header.css" />
+    <link rel="stylesheet" href="styles/style-container.css" />
+    <link rel="stylesheet" href="styles/style-second-page.css" />
+  </head>
+  <body>
+    <header>
+      <img src="images/newlogo.svg" alt="logo" class="logo" />
+      <div class="menu">
+        <button id="goToMain">Главная</button
+        ><button id="goToAnalytics">Аналитика</button>
+      </div>
+      <img src="images/ava.svg" alt="avatar" class="avatar" />
+    </header>
+    <div class="container">
+      <div class="device-param">
+        <div class="device-top">
+          <img src="images/Pic.svg" alt="UnknowPic" class="UnknowPic" id="deviceImage"/>
+          <div class="device-name">
+            <p id="deviceName">
+              pH-метр Mettler-Toledo International, Inc. SevenCompact S220
+            </p>
+            <p>S1.4.I14-9.001 &#183; 00-024004</p>
+          </div>
+          <div class="device-action">
+            <select>
+              <option>В работе</option>
+            </select>
+            <img src="images/favorite.svg" alt="heart" class="heart" />
+            <img src="images/settings.svg" alt="settings" class="settings" />
+          </div>
+        </div>
+        <div class="device-work">
+          <select>
+            <option>Работа прибора</option>
+          </select>
+          <img src="images/alarm_on.svg" alt="alarm_on" class="alarm_on" />
+          <div class="save-pdf">
+            <p>СОХРАНИТЬ PDF</p>
+            <img src="images/Frame299.svg" alt="Frame" class="Frame" />
+          </div>
+        </div>
+        <div class="device-time">
+          <input
+            type="datetime-local"
+            class="data-at"
+            value="2021-10-07T10:55"
+          />
+          <img
+            src="images/arrow_forward.svg"
+            alt="arrow_forward"
+            class="arrow_forward"
+          />
+          <input
+            type="datetime-local"
+            class="data-now"
+            value="2021-10-21T10:55"
+          />
+        </div>
+        <div class="device-cheaps">
+          <ul>
+            <li>День</li>
+            <li>Неделя</li>
+            <li>2 недели</li>
+            <li>Месяц</li>
+            <li>3 месяца</li>
+            <li>Полгода</li>
+          </ul>
+        </div>
+        <div class="device-table">
+          <div class="device-table-border">
+            <div class="table-header">
+              <div><p>Начало</p></div>
+              <div><p>Тип работ</p></div>
+              <div><p>Работы</p></div>
+              <div><p>Результат</p></div>
+              <div><p>Пользователь</p></div>
+            </div>
+            <div class="table-row">
+              <div><p>09.10.2021, 15:46</p></div>
+              <div>
+                <p>В работе</p>
+                <p>Измерение</p>
+              </div>
+              <div>
+                <p>
+                  Образец/серия:&nbsp;<span
+                    >000100057935_170000010325_0000251849</span
+                  >
+                </p>
+              </div>
+              <div>
+                <p></p>
+                <img
+                  src="images/checkColor.svg"
+                  alt="checkColor"
+                  class="checkColor"
+                />
+              </div>
+              <div><a>morozovava</a></div>
+            </div>
+            <div class="table-row">
+              <div><p>12.10.2021, 12:17</p></div>
+              <div>
+                <p>В работе</p>
+                <p>Калибровка</p>
+              </div>
+              <div>
+                <p>Номер колонки:&nbsp;<span>Колонка 2</span></p>
+                <p>Образец:&nbsp;<span>Образец 2</span></p>
+                <p>Образец:&nbsp;<span>образец 1</span></p>
+                <p>Метод:&nbsp;<span>метов тестовый</span></p>
+                <p>Номер колонки:&nbsp;<span>Колонка 1</span></p>
+              </div>
+              <div>
+                <p>Промывка с указанием вещества: Вещество<br />...</p>
+                <img
+                  src="images/checkColor.svg"
+                  alt="checkColor"
+                  class="checkColor"
+                />
+              </div>
+              <div><a>morozovava</a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="scripts/scriptSecondPage.js"></script>
+  </body>
+</html>

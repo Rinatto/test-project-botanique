@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>botanique</title>
+    <link rel="icon" href="images/Group.svg" />
+    <link rel="stylesheet" href="styles/style-header.css" />
+    <link rel="stylesheet" href="styles/style-container.css" />
+    <link rel="stylesheet" href="styles/style-second-page.css" />
+  </head>
+  <body>
+    <header>
+      <img src="images/newlogo.svg" alt="logo" class="logo" />
+      <div class="menu">
+        <button id="goToMain">Главная</button
+        ><button id="goToAnalytics">Аналитика</button>
+      </div>
+      <img src="images/ava.svg" alt="avatar" class="avatar" />
+    </header>
+    <div class="container">
+      <form>
+        <input
+          type="text"
+          placeholder="Поиск прибора в Botanique по номеру, названию, подразделению и др."
+          class="find-device"
+          id="searchInput"
+        />
+      </form>
+      <img src="images/inputVector.svg" alt="inputImg" class="inputImg" />
+      <div class="favorite">
+        <div class="header-favorite" id="favoriteLabel">
+          <img src="images/heart.svg" alt="heart" class="heart" />
+          <h1>Любимые приборы</h1>
+        </div>
+        <div class="devices">
+          <div class="contents">
+            <p>Название</p>
+            <p>Статус</p>
+          </div>
+          <template id="device-template">
+            <div class="device">
+              <img src="" alt="" />
+              <p></p>
+                <select name="clocks" class="clock-select">
+                  <option value="free">Свободен</option>
+                  <option value="busy">Занят</option>
+                  <option value="work">В работе</option>
+                </select>
+              <img src="" alt="" class="clock" />
+            </div>
+          </template>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="scripts/script.js"></script>
+  </body>
+</html>
