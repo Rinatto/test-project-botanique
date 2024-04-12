@@ -17,9 +17,7 @@
     border: 1px solid #e2e2e2;
     border-radius: 4px;
     color: #00000099;
-    font-family: "Roboto", sans-serif;
     font-weight: 400;
-    font-style: normal;
     background-color: whitesmoke;
 }
 
@@ -51,9 +49,7 @@
 
 h1 {
     color: #00000099;
-    font-family: "Roboto", sans-serif;
     font-weight: 500;
-    font-style: normal;
     font-size: 20px;
     margin-left: 20.71px;
 }
@@ -77,9 +73,7 @@ h1 {
     width: 654px;
     height: 24px;
     color: #00000099;
-    font-family: "Roboto", sans-serif;
     font-weight: 500;
-    font-style: normal;
     font-size: 14px;
     margin-left: 77px;
     margin-top: 14px;
@@ -88,9 +82,7 @@ h1 {
     width: 157px;
     height: 24px;
     color: #00000099;
-    font-family: "Roboto", sans-serif;
     font-weight: 500;
-    font-style: normal;
     font-size: 14px;
     margin-top: 14px;
 }
