@@ -1,44 +1,42 @@
 * {
-    margin: 0;
-    padding: 0;
-    font-family: "Roboto", sans-serif;
-    font-style: normal;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-size: 14px;
 }
 
 header {
-    width: 1280px;
-    background-color:#FFFFFF;
-    display: flex;
-    justify-content: space-between;
+  width: 1280px;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
 }
 
 .logo {
-    padding-left: 24px;
-    width: 132px;
-    height: 48px;
+  padding-left: 24px;
+  width: 132px;
+  height: 48px;
 }
 
 .menu {
-    width: 328px;
-  
+  width: 328px;
 }
 
 .menu button {
-    width: 164px;
-    height: 47px;
-    border: none;
-    color: #00000099;
-    font-weight: 500;
-    background-color: #FFFFFF;
-    font-size: 14px;
+  width: 164px;
+  height: 47px;
+  border: none;
+  color: #00000099;
+  font-weight: 500;
+  background-color: #ffffff;
 }
 
-.menu button:hover{
-    color: #23B04A;
-    border-bottom: 2px solid  #23B04A;
+.menu button:hover {
+  color: #23b04a;
+  border-bottom: 2px solid #23b04a;
 }
 
 .avatar {
-    padding-right: 24px;
+  padding-right: 24px;
 }
-
