@@ -1,6 +1,6 @@
 export async function fetchDevices() {
     try {
-      const apiUrl = 'http://testinformation.ru/';
+      const apiUrl = 'https://testinformation.ru/';
       const response = await fetch(apiUrl);
       if (!response.ok) {
         throw new Error(`HTTP error! status: ${response.status}`);
